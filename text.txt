@@ -1,0 +1,50 @@
+update schemas always optional to help if you need to change some of columns not all
+شيماس يجب ان تعكس متطلبات الموديل يعني الحقل الاجباري في الموديل لازم يكون اجباري في الشيماس
+
+uvicorn main:app --reload
+
+
+
+
+
+
+
+
+{
+  "name": "lenovo",
+  "price": 15000,
+  "warranty": 1,
+  "in_stock": 0,
+  "discount": 0.1,
+  "front_img": "gg",
+  "back_img": "tt",
+  "left_img": "ee",
+  "right_img": "ff",
+  "category_id": 1,
+  "attributes": [
+    {
+      "attribute_id": 2,
+      "value": "ssd nvme m.2 1tp"
+    },
+    {
+      "attribute_id": 3,
+      "value": "ryzen 5 7600"
+    },
+{
+      "attribute_id": 4,
+      "value": "rtx 5090 24gb"
+    },{
+      "attribute_id": 5,
+      "value": "coolermaster 80plus gold 750w"
+    },{
+      "attribute_id": 6,
+      "value": "xigmatic crystal storm"
+    },{
+      "attribute_id": 7,
+      "value": "B650m-b ddr5"
+    },{
+      "attribute_id": 8,
+      "value": "corsair vergence 32 gb 6000mhz"
+    }
+  ]
+}
